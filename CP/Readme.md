@@ -93,7 +93,7 @@ print()
 '''
 
 Вывод: 
-![Скрин 1](https://github.com/python-advance/sem5-collections-Bolzuka/blob/master/CP/4.1.png "Скрин 0")
+![Скрин 1](https://github.com/python-advance/sem5-collections-Bolzuka/blob/master/CP/4.1.png "Скрин 1")
 
 
 
@@ -167,5 +167,5 @@ print()
 '''
 
 Вывод: 
-![Скрин 2](https://github.com/python-advance/sem5-collections-Bolzuka/blob/master/CP/4.2.png "Скрин 1")
+![Скрин 2](https://github.com/python-advance/sem5-collections-Bolzuka/blob/master/CP/4.2.png "Скрин 2")
 
