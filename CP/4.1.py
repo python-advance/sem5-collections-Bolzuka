@@ -9,8 +9,9 @@ print(a)
 print()
 
 print("С помощью встроенных функций языка")
-sortarray0 = a.sort()
-print(a)
+sortarray0 = a
+sortarray0.sort()
+print(sortarray0)
 print()
 
 print("Сортировка по возростанию")
@@ -35,13 +36,6 @@ def sortarray3(a):
 	return a
 print(sortarray3(a))
 print()
-
-
-
-
-
-
-
 
 print("Плавная сортировка")
 
