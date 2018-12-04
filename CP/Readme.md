@@ -4,24 +4,24 @@
 Сортировка значений в списке методом вставки, плавной сортировки, с помощью встроенных функций языка.
 
 Импортируем 
-'''
+```python
 import numpy as np
 import numpy.random
-'''
+```
  
 Выводим массив из 10 чисел с рандомными числами от 0 до 100 
 
-'''
+```
 print("Рандомный массив")
 a = np.random.randint(0, 100, 10)
 print(a)
 print()
-'''
+```
 
 Сортировка с помощью встроенных функций языка 
 sort() и sorted
 
-'''
+```
 print("С помощью встроенных функций языка")
 sortarray0 = a
 sortarray0.sort()
@@ -37,11 +37,11 @@ print("Сортировка по убыванию")
 sortarray2 = sorted(a, reverse = True)
 print(sortarray2)
 print()
-'''
+```
 
 Сортировка значений в списке методом вставки
 
-'''
+```
 print("Сортировка значений в списке методом вставки")
 def sortarray3(a):
 	for i in range(len(a) - 1):
@@ -54,13 +54,13 @@ def sortarray3(a):
 	return a
 print(sortarray3(a))
 print()
-'''
+```
 
 
 Плавная сортировка
 Сортирует список в возрастающем порядке с помощью алгоритма пирамидальной сортировки
 
-'''
+```
 print("Плавная сортировка")
 
 def sortarray4(a):
@@ -90,7 +90,7 @@ def sortarray4(a):
 
 print(sortarray4(a))
 print()
-'''
+```
 
 Вывод: 
 ![Скрин 1](https://github.com/python-advance/sem5-collections-Bolzuka/blob/master/CP/4.1.png "Скрин 1")
@@ -106,16 +106,15 @@ print()
 Снова импортируем модули
 Снова выводим массив из 10 чисел с рандомными числами от -50 до 50 
 
-'''
+```
 print("Рандомный массив")
 a = np.random.randint(-50, 50, 10)
 print(a)
 print()
-'''
-
+```
 
 Выводим четные элементы массива
-'''
+```
 print("Четный список")
 sortarray1 = []
 i = 0
@@ -125,10 +124,10 @@ while i < 10:
 	i += 1
 print(sortarray1)
 print()
-'''
+```
 
 Выводим нечетные элементы массива
-'''
+```
 print("Нечетный список")
 sortarray2 = []
 i = 0
@@ -138,10 +137,10 @@ while i < 10:
 	i += 1
 print(sortarray2)
 print()
-'''
+```
 
 Выводим положительные элементы массива
-'''
+```
 print("Положительные")
 sortarray3 = []
 i = 0
@@ -151,10 +150,10 @@ while i < 10:
 	i += 1
 print(list(sortarray3))
 print()
-'''
+```
 
 Выводим отрицательные элементы массива
-'''
+```
 print("Отрицательные")
 sortarray4 = []
 i = 0
@@ -164,7 +163,7 @@ while i < 10:
 	i += 1
 print(list(sortarray4))
 print()
-'''
+```
 
 Вывод: 
 ![Скрин 2](https://github.com/python-advance/sem5-collections-Bolzuka/blob/master/CP/4.2.png "Скрин 2")
